@@ -1,6 +1,6 @@
 /* Global styles */
 .navbar{
-    background-color: rgb(245, 186, 77);
+    background-color: rgb(39, 39, 38);
     display: flex;
     align-items: center;
     height: 80px;
@@ -12,6 +12,8 @@
 /* Logo */
 .brand img{
     width: 60px;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -24,14 +26,16 @@
     align-items: center;
 }
 /* List styles */
-.products-container li{
+.category-active{
     padding: 0 50px;
-    font-size: 16px;
+    font-size: 18px;
     height: 100%;
     display: flex;
     align-items: center;
-}.products-container li:hover{
-    background-color: rgb(235, 202, 142);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}.category-active:hover{
+    background-color: rgb(77, 76, 74);
     cursor: pointer;
 }
 
@@ -45,5 +49,7 @@
     cursor: pointer;
 }
 .cartwidget p{
+    font-size: 18px;
     padding: 0 10px;
+    color: white;
 }
