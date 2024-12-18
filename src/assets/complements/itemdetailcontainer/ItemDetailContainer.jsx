@@ -16,7 +16,7 @@ const ItemDetailContainer = () => {
       const findProduct = data.find((dataProduct)=> dataProduct.id === idProduct)
       setProduct(findProduct)
     })
-    .catch((error)=>console.error(error))
+    .catch((error)=>console.log(error))
     .finally(()=>console.log("Terminó la promesa"))
   }, [idProduct])
 
