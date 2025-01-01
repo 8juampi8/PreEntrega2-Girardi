@@ -14,8 +14,8 @@ const Navbar = () => {
 
       <ul className="products-container">
         <Link to="/type/Lata" className="category-active">Latas</Link>
-        <Link to="/type/Chopera20l" className="category-active">Choperas 20l</Link>
-        <Link to="/type/Chopera50l" className="category-active">Choperas 50l</Link>
+        <Link to="/type/Chopera20LT" className="category-active">Choperas 20l</Link>
+        <Link to="/type/Chopera50LT" className="category-active">Choperas 50l</Link>
       </ul>
 
       <CartWidget />
